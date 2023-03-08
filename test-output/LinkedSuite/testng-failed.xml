@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LinkedSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LnkedTest(failed)">
+    <parameter name="passWord" value="Surendra@577"/>
+    <parameter name="useName" value="venkatasurendra144@gmail.com"/>
+    <classes>
+      <class name="testngbasicprograms.LinkedTestDemo">
+        <methods>
+          <include name="signOut"/>
+          <include name="launcingLinkedin"/>
+        </methods>
+      </class> <!-- testngbasicprograms.LinkedTestDemo -->
+    </classes>
+  </test> <!-- LnkedTest(failed) -->
+</suite> <!-- Failed suite [LinkedSuite] -->

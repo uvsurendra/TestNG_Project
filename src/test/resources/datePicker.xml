@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DatePickerSuite">
+  <test thread-count="5" name="DatePickerTest">
+	  <parameter name="day" value="29"></parameter>
+	  <parameter name="month" value="January"></parameter>
+	  <parameter name="year" value="1997"></parameter>
+    <classes>
+      <class name="testngbasicprograms.DatePicker"/>
+    </classes>
+  </test> <!-- DatePickerTest -->
+</suite> <!-- DatePickerSuite -->

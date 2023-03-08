@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DatePickerSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DatePickerTest(failed)">
+    <parameter name="month" value="January"/>
+    <parameter name="year" value="1997"/>
+    <parameter name="day" value="29"/>
+    <classes>
+      <class name="testngbasicprograms.DatePicker">
+        <methods>
+          <include name="launchingBrowser"/>
+          <include name="searchKeyWord" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngbasicprograms.DatePicker -->
+    </classes>
+  </test> <!-- DatePickerTest(failed) -->
+</suite> <!-- Failed suite [DatePickerSuite] -->

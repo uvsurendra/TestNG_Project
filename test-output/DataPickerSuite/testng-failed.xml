@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataPickerSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DataPickerTest(failed)">
+    <parameter name="month" value="January"/>
+    <parameter name="year" value="2022"/>
+    <parameter name="day" value="29"/>
+    <classes>
+      <class name="test.ng.DataPickerDemo">
+        <methods>
+          <include name="launchingBrowser"/>
+          <include name="clickOnDateMonthYear" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.ng.DataPickerDemo -->
+    </classes>
+  </test> <!-- DataPickerTest(failed) -->
+</suite> <!-- Failed suite [DataPickerSuite] -->

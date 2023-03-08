@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GoogleSuite">
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="testngbasicprograms.TestingProcess"/>
+      <class name="testngbasicprograms.ZkDemoClass"/>
+      <class name="testngbasicprograms.TestingProcess2"/>
+      <class name="practice.GoogleDemo"/>
+      <class name="testngbasicprograms.ZkDemo"/>
+      <class name="test.ng.TestingDemo"/>
+      <class name="testngbasicprograms.ZkDemoPractice"/>
+      <class name="test.ng.NewTest"/>
+      <class name="test.ng.TestingClass"/>
+      <class name="test.ng.LinkedinTest"/>
+      <class name="testngbasicprograms.ZkClassName"/>
+      <class name="testngbasicprograms.ZkDemoRadio"/>
+      <class name="testngbasicprograms.HandlingPopUp"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- GoogleSuite -->

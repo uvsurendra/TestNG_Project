@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KeySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="KeyTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testngbasicprograms.KeyBoardClass">
+        <methods>
+          <include name="clickOnDroppable"/>
+          <include name="clickMouse"/>
+          <include name="searchKeyWords"/>
+        </methods>
+      </class> <!-- testngbasicprograms.KeyBoardClass -->
+    </classes>
+  </test> <!-- KeyTest(failed) -->
+</suite> <!-- Failed suite [KeySuite] -->

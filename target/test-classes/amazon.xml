@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AmazonSuite">
+  <test thread-count="5" name="AmazonTest">
+	  <parameter name="userName" value="subbu09090@gmail.com"></parameter>
+	  <parameter name="passWord" value="subbu@8426R"></parameter>
+	  <classes>
+		  <class name="pratice.AmazonPrime"/>
+	  </classes>
+  </test> <!-- AmazonTest -->
+</suite> <!-- AmazonSuite -->
